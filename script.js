@@ -5,15 +5,15 @@ const yesbtn = document.getElementById("yesbtn");
 const nobtn = document.getElementById("nobtn");
 const message = document.getElementById("message");
 const texts = [
-    "แน่ใจนะ 🥺",
-    "คิดดี ๆ อีกที ❤️",
-    "ง้อจริง ๆ นะ 😭",
-    "ใจร้ายจัง 💔",
-    "ให้อภัยเถอะน้า 🥹",
-    "กดผิดปุ่มหรือเปล่า 😂",
-    "ปุ่มให้อภัยอยู่ตรงนี้นะ ❤️",
-    "สัญญาว่าจะไม่ทำแล้ว 🥺",
-    "ง้อจนกว่าจะใจอ่อนเลย 😭❤️"
+    "แน่ใจนะ🥺",
+    "คิดดีๆอีกที❤️",
+    "ง้อจริงๆนะ😭",
+    "ใจร้าย💔",
+    "ให้อภัยเถอะนะ🥹",
+    "กดผิดปุ่มป่าว😂",
+    "ปุ่มให้อภัยอยู่ตรงนี้นะ❤️",
+    "สัญญาว่าจะไม่ทำแล้ว🥺",
+    "ง้อจนกว่าจะใจอ่อนเลย😭❤️"
 ];
 yesbtn.addEventListener("click", function () {
     const container = document.querySelector(".container");
