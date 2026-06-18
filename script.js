@@ -30,6 +30,12 @@ yesbtn.addEventListener("click", function () {
     <h1 class="thank-title">
         รักกกกกกกกกก
     </h1>
+    <p class="thank-text">
+         ขอโทษนะที่ทำตัวแบบนั้นไป จะไม่คีพลุคแล้ว 
+         ถ้าอยากให้ลงเพลงก็บอกได้เลย ตอนเช้าไม่รู้ว่าจะกล้าทักรึป่าว
+         ถ้า 7 โมงยังไม่ออนแสดงว่าหลับ ทำตั้งแต่เที่ยงคืนจนตี 3 นอนไม่หลับ
+         เพราะที่ทำไปก็หนักอยู่ ขอโทษด้วยที่ดูเป็นห่วงเยอะเกิน รักนะจุ๊บๆ
+    </p>
 </div>
     `;
     document.body.style.opacity = "1";
@@ -57,6 +63,6 @@ nobtn.addEventListener("click", function () {
     }
     if(noSize <= 4){
         nobtn.style.display = "none";
-        message.innerHTML = "ไม่มีทางเลือกแล้ว😆❤️"
+        message.innerHTML = "ไม่มีทางเลือกแล้วนะ😆❤️"
     }
 });
